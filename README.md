@@ -3,15 +3,26 @@
 ## Description
 Harvest is a time tracking and reporting software used by many companies, one of them being Devsquad. In this project a database from Devsquad's harvest account is being analyzed. The project is devided in five main tasks, in which mainly hypothesis are being tested. 
 
+## Data
+You can download the databased used in this project here: https://docs.google.com/spreadsheets/d/1VK2ZQyVCNNjh4D-aQ4xyRjU8DrsLhQ9O02FnZ9S_nSU/edit?usp=sharing, although is not necessary.
+
+Obs: in task number 1, one of the dataframes is saved to a csv file used in task number 3. Remember to change the file's path when reading this file on the beginning of task three. Thank you.
+
 ## Visuals
 ![image.png](./image.png)
 
 ## Installation
 All we need to have for this project is:
-    Pandas (see how to install: https://pt.stackoverflow.com/questions/57487/como-instalar-a-biblioteca-pandas-no-python-3)
-    Numpy (see how to install: https://numpy.org/install/)
-    Statsmodels (see how to install: https://www.statsmodels.org/stable/install.html)
-And a text editing program. I am using Jupyter Notebook, you can learn how to install it in: https://docs.jupyter.org/en/latest/install/notebook-classic.html
+
+- Pandas (see how to install: https://pt.stackoverflow.com/questions/57487/como-instalar-a-biblioteca-pandas-no-python-3)
+
+- Numpy (see how to install: https://numpy.org/install/)
+
+- Statsmodels (see how to install: https://www.statsmodels.org/stable/install.html)
+
+And a text editing program. I am using Jupyter Notebook, you can learn how to install it in: 
+
+https://docs.jupyter.org/en/latest/install/notebook-classic.html
 
 ## Usage
 This code is helpfull when it comes to running t-tests and correlations tests on a database to test whether a hypothesis is true or false.
