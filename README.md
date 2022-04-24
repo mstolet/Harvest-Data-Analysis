@@ -36,3 +36,30 @@ Create and test three hypothesis:
     2) People work more hours when the client's currency is USD.
     3) People work less hours in december.
 
+## Tasks Results
+
+# Task 1
+The null hypothesis, people who registered one or more entries "without any notes" registered just as much hours than the rest, got rejected after receiving a p-value of 3.9371271521266196e-11 after a t-test. Also, if the correlation of 0.5034603801323787 is analyzed, it can be concluded that there are a positive moderated relation between entering more hours and not entering notes.
+
+# Task 2
+The most time demanding tasks are those in the Development group, a total of 24669.37 hours registered. Quality Assurance is the second (5926.63 hours) and, actually with a really close number (5177.65) is the DevOps group. After that it comes UI/UX Design, Management, Marketing, Prod Work, Recruitment and Self improving.
+
+# Task 3
+After descovering that not even 10% of those who entered at least one time "without any notes" are NOT in the list of those who created entries "bigger than 3 hours", it can stated that programmers who create time entries longer than three hours are probably the same who don't write notes.
+
+# Task 4
+Running a correlation test between a "hours only from users who create manual entries" dataframe and a "hours from all the users" dataframe, it can be found that probably, users who create manual entries have NOT a more even work pace during the week, since the number gotten is really close to zero, only -0.05853687472846683. If a t-test is also ran, the null hypothesis that people who create manual entries have a more even work pace during the week can be rejected, since the p-value is also really small: 3.5107658841576125e-08.
+
+# Task 5
+    1) People who spend more hours working are the same that enter more programming tasks.
+H0: People who spend a higher number of hours than the mean working are the same that enter programming tasks.
+Null hypothesis accepted for a p-value of 0.1791899767959702.
+
+    2) People work more hours when the client's currency is USD.
+H0: People spend more hours than the mean on projects which the clients currency is GBP.
+Null hypothesis rejected for a p-value of 0.030391437008328866.
+
+    3) People work less hours in december.
+H0: People work less hours than the mean of the rest of the year in december.
+Null hypothesis rejected for a p-value of 7.525432670171487e-07 and correlation of 0.022521589871756283
+.
