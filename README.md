@@ -4,9 +4,10 @@
 Harvest is a time tracking and reporting software used by many companies, one of them being Devsquad. In this project a database from Devsquad's harvest account is being analyzed. The project is devided in five main tasks, in which mainly hypothesis are being tested. 
 
 # Data
-You can download the databased used in this project here: https://docs.google.com/spreadsheets/d/1VK2ZQyVCNNjh4D-aQ4xyRjU8DrsLhQ9O02FnZ9S_nSU/edit?usp=sharing, although is not necessary.
+You can download the databased used in this project, although is not necessary, here: 
+https://docs.google.com/spreadsheets/d/1VK2ZQyVCNNjh4D-aQ4xyRjU8DrsLhQ9O02FnZ9S_nSU/edit?usp=sharing
 
-Obs: in task number 1, one of the dataframes is saved to a csv file used in task number 3. Remember to change the file's path when reading this file on the beginning of task three. Thank you.
+Obs: in task number 1, one of the dataframes (dfusers1) is saved to a csv file, later used in task number 3. Remember to change the file's original path to the path in your computer when reading this file on the beginning of task three. Thank you.
 
 # Visuals
 ![image.png](./image.png)
@@ -20,12 +21,14 @@ All we need to have for this project is:
 
 - Statsmodels (see how to install: https://www.statsmodels.org/stable/install.html)
 
-And a text editing program. I am using Jupyter Notebook, you can learn how to install it in: 
+And a text editing program where you can run this python code. I am using Jupyter Notebook, you can learn how to install it in: 
 
 https://docs.jupyter.org/en/latest/install/notebook-classic.html
 
+Google Colab should also work just fine.
+
 # Usage
-This code is helpfull when it comes to running t-tests and correlations tests on a database to test whether a hypothesis is true or false.
+This code is helpfull when it comes to running t-tests and correlation tests on a database to examine whether a hypothesis can be accepted or rejected.
 
 # Tasks Descriptions
 
@@ -48,7 +51,7 @@ Create and test three hypothesis:
     3) People work less hours in december.
 
 # Method
-A t-test is the mainly type of inferential statistic used in this project. This is a test for the null hypothesis that the expected value (mean) of a sample of independent observations is equal to the given population mean, popmean. Just what is needed to complete almost all the tasks. Therefore, was the method chosen to do so. 
+A t-test is the mainly type of inferential statistic used in this project. This is a test for the null hypothesis that the expected value (mean) of a sample of independent observations is equal to the given population mean. Just what is needed to complete almost all the tasks. Therefore, was the method chosen to do so. 
 
 Another type of inferential statistic present in this analysis is the correlation method, which is usefull when the goal is assessing a possible two-way linear association between two continuous variables. For that reason, it was also chosen to be a part of this project.
 
