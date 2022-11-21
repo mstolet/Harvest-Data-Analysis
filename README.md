@@ -1,7 +1,7 @@
-# Devsquad's harvest data analysis
+# Harvest data analysis
 
 # Description
-Harvest is a time tracking and reporting software used by many companies, one of them being Devsquad. In this project a database from Devsquad's harvest account is being analyzed. The project is devided in five main tasks, in which mainly hypothesis are being tested. 
+Harvest is a time tracking and reporting software used by many companies. In this project a database from a company Harvest account is being analyzed. The project is devided in five main tasks, in which hypothesis are being tested. 
 
 # Data
 You can download the databased used in this project, although is not necessary, here: 
